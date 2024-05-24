@@ -248,7 +248,7 @@ tree_view.pack(side='left')
 
 # Adding Heading to tree view
 tree_view.column(1, width=1, anchor=CENTER, stretch=NO)
-tree_view.heading(1, text='')
+tree_view.heading(1, text='ID')
 
 tree_view.column(2, anchor=CENTER, stretch=NO)
 tree_view.heading(2, text='Transaction Date')
